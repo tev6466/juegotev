@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link  rel="icon"   href="imgpag/icn.png"/>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>VideoJuegos - TEV</title>
+
+	<link rel="stylesheet" href="css/estilos.css">
+	<link rel="stylesheet" href="css/busqueda.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
+
+	<script src="js/jquery-3.2.1.js"></script>
+	<script src="js/script.js"></script>
+	
+	
+	
+	<!--BUSCADOR-->
+    <link rel="stylesheet" href="css/buscar.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery.dataTables.min.js"></script>
+	<!--BUSCADOR-->
+	
+	
+	
+	
+	
+	
+	
+	<script>
+    /**
+    * Array con las imagenes que se iran mostrando en la web
+    */
+    var imagenes=new Array(
+        'imgpag/img1.jpg',
+        'imgpag/img2.jpg',
+        'imgpag/img3.jpg',
+        'imgpag/img4.jpg',
+    );
+  
+    /**
+    * Funcion para cambiar la imagen
+    */
+    function rotarImagenes()
+    {
+        // obtenemos un numero aleatorio entre 0 y la cantidad de imagenes que hay
+        var index=Math.floor((Math.random()*imagenes.length));
+  
+        // cambiamos la imagen
+        document.getElementById("imagen").src=imagenes[index];
+    }
+  
+    /**
+    * Función que se ejecuta una vez cargada la página
+    */
+    onload=function()
+    {
+        // Cargamos una imagen aleatoria
+        rotarImagenes();
+  
+        // Indicamos que cada 5 segundos cambie la imagen
+        setInterval(rotarImagenes,5000);
+    }
+</script>
+	
+	
+	
+</head>
+<body>
+	
+	
+	
+
+	
+	
+<!-- VVIIHHUUAARR MENU-->			
+		<CENTER><header>
+		<nav>
+			<ul>
+				<li><a href="index.html">Inicio</a></li>
+				<li><a href="juegosTEV.html">JUEGOS TEV</a></li>
+				<li><a href="ofertas.html">OFERTAS</a></li>
+				<li><a href="noticias.html">NOTICIAS</a></li>
+				<li><a href="quienesSomos.html">¿QUIENES SOMOS?</a></li>
+				<li><a href="contactanos.html">CONTACTANOS</a></li>
+				<li><img src="imgpag/lupa.PNG" width="60" ></li><li><input type="search" id="input-search" placeholder="Buscar aqui">
+    
+    <div class="content-search">
+        <div class="content-table">
+            <table id="table">
+                <thead>
+                    <tr>
+                        <td></td>
+                    </tr>
+                </thead>
+                
+                <tbody>
+                    <tr>
+                        <td><a href="JassasinsC-EzioCollection.html">Assasins Creed The Ezio Collection</a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td><a href="JassasinsC-Odyssey.html">Assasins Creed Odyssey</a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td><a href="JassasinsC-OdysseyDeluxeEdition.html">Assasins Creed Odyssey - Deluxe Edition</a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td><a href="JassasinsC-OdysseyGoldEdition.html">Assasins Creed Odyssey - Gold Edition</a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td><a href="JassasinsC-OdysseyUltimate.html">Assasins Creed Odyssey - Ultimate</a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td><a href="JassasinsCOrigins.html">Assasins Creed Origins</a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td><a href="JassasinsCOrigins-DeluxeEdition.html">Assasins Creed Origins - Deluxe Edition</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="JassasinsCOrigins-GoldEdition.html">Assasins Creed Origins - Gold Edition</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="JbatmanAKight.html">Batman Arkham Knight</a></td>
+                    </tr>    
+                    <tr>
+                        <td><a href="JbatmanAOrigins.html">Batman Arkham Origins </a></td>
+                    </tr> 
+                    <tr>
+                        <td><a href="Jceleste.html">Celeste</a></td>
+                    </tr> 
+                    <tr>
+                        <td><a href="JcrashBTrilogy.html">Crash Bandicoot™ N. Sane Trilogy</a></td>
+                    </tr> 
+                    <tr>
+                        <td><a href="JcrashTRacing.html">Crash Team Racing</a></td>
+                    </tr> 
+                    <tr>
+                        <td><a href="JcrashTrilogyRacing.html">Crash Trilogy Bundle + Crash Tean Racing</a></td>
+                    </tr> 
+                    <tr>
+                        <td><a href="JcrashTRySpyro.html">Crash Trilogy + Crash Tean Racing + Spyro</a></td>
+                    </tr> 
+                    <tr>
+                        <td><a href="JdarkSRemastered.html">Dark Souls Remastered</a></td>
+                    </tr> 
+                    <tr>
+                        <td><a href="JdarkSII.html">Dark Souls II Scholar of the First Sin</a></td>
+                    </tr> 
+                    <tr>
+                        <td><a href="JdarkSIII.html">Dark Souls III</a></td>
+                    </tr> 
+                    <tr>
+                        <td><a href="JdarkSIII-DeluxeEdition.html">Dark Souls III - Deluxe Edition</a></td>
+                    </tr> 
+					<tr>
+                        <td><a href="JdaysG.html">Days Gone </a></td>
+                    </tr>
+					<tr>
+                        <td><a href="JdaysG-DigitalDeluxeEdition.html">Days Gone - Deluxe Edition</a></td>
+                    </tr>
+					<tr>
+                        <td><a href="JdeathStranding.html">Death Stranding</a></td>
+                    </tr>					
+					<tr>
+                        <td><a href="JdeathStranding-DeluxeEdition.html">Death Stranding - Delux Edition</a></td>
+                    </tr>
+					<tr>
+                        <td><a href="JdetroitBH.html">Detroit: Become Human</a></td>
+                    </tr>
+					<tr>
+                        <td><a href="JdetroitBH-HeavyR-BeyondTS.html">Detroit B.H. + Heavy R. + Beyond T.S.</a></td>
+                    </tr>
+					<tr>
+                        <td><a href="JdragonB-FighterZ.html">Dragon Ball Fighter Z</a></td>
+                    </tr>
+					<tr>
+                        <td><a href="JdragonB-FighterZEdition.html">Dragon Ball Fighter Z Edition</a></td>
+                    </tr>
+					<tr>
+                        <td><a href="JdragonB-Xenoverse1.html">Dragon Ball Xenoverse 1</a></td>
+                    </tr>
+					<tr>
+                        <td><a href="JdragonB-Xenoverse2.html">Dragon Ball Xenoverse 2</a></td>
+                    </tr>
+					<tr>
+                        <td><a href="JdragonB-Xenoverse1y2.html">Dragon Ball Xenoverse 1 y 2</a></td>
+                    </tr>
+					<tr>
+                        <td><a href="JdragonBKakarot.html">Dragon Ball Z Kakarot</a></td>
+                    </tr>
+					<tr>
+                        <td><a href="JdragonBKakarot-DeluxeEdition.html">Dragon Ball Z - Kakarot Deluxe Edition</a></td>
+                    </tr>
+					<tr>
+                        <td><a href="JdragonBKakarot-UltimateEdition.html">Dragon Ball Z Kakarot - Ultimate Edition</a></td>
+                    </tr>
+					<tr>
+                        <td><a href="Jfifa20-StandardEdition.html">FIFA 20 - Standard Edition</a></td>
+                    </tr>
+					<tr>
+                        <td><a href="Jfifa20-ChampionsEdition.html">FIFA 20 - Champions Edition</a></td>
+                    </tr>
+					<tr>
+                        <td><a href="Jfifa20-UltimateEdition.html">FIFA 20 - Ultimate Edition</a></td>
+                    </tr>
+					<tr>
+                        <td><a href="JfinalFXVIIR-StandardEdition.html">Final Fantasy VII Remake - Stándar Edition</a></td>
+                    </tr>
+					<tr>
+                        <td><a href="JfinalFXVIIIR-StandardEdition.html">Final Fantasy VIII Remake - Stándar Edition</a></td>
+                    </tr>
+					<tr>
+                        <td><a href="JfinalFXIVShadow-Collector.html">Final Fantasy XIV Shadowbringers - Collector's</a></td>
+                    </tr>
+					<tr>
+                        <td><a href="JfinalFXIVShadow-CollectorEdition.html">Final Fantasy XIV Shadowbringers - Collection Edition </a></td>
+                    </tr>
+					<tr>
+                        <td><a href="JghostOT.html">Ghost Of Tsushima</a></td>
+                    </tr>
+					<tr>
+                        <td><a href="JghostOT-DeluxeEdition.html">Ghost Of Tsushima - Deluxe Edition</a></td>
+                    </tr>
+					<tr>
+                        <td><a href="JgodOfWarV.html">God Of War V</a></td>
+                    </tr>
+					<tr>
+                        <td><a href="JgodOfWarV-DeluxeEdition.html">God Of War V - Digital Deluxe Edition</a></td>
+                    </tr>
+					<tr>
+                        <td><a href="JGTA5.html">Grand Theft Auto V</a></td>
+                    </tr>
+					<tr>
+                        <td><a href="JGTA5-PremiumEdition.html">Grand Theft Auto V - Premium Online Edition</a></td>
+                    </tr>
+					<tr>
+                        <td><a href="JhitmanGo-DefinitiveEdition.html">Hirman Go - Definitive Edition </a></td>
+                    </tr>
+					<tr>
+                        <td><a href="Jinjustice2.html">Injustice 2</a></td>
+                    </tr>
+					<tr>
+                        <td><a href="Jinjustice2-LegendaryEdition.html">Injustice 2 - Legendary Edition </a></td>
+                    </tr>
+					<tr>
+                        <td><a href="JinjusticeGAU-UltimateEdition.html">Injustice Gods Among US - Ultimate Edition</a></td>
+                    </tr>
+					<tr>
+                        <td><a href="JmetalGSurvive.html">Metal Gear Solid Survive</a></td>
+                    </tr>
+					<tr>
+                        <td><a href="JmetalGS5-TheDefinitiveExperience.html">Metal Gear Solid V: The Definitive Experience</a></td>
+                    </tr>
+					<tr>
+                        <td><a href="JmetalGS5-ThePhatomPain.html">Metal Gear Solid V - The Phantom Pain</a></td>
+                    </tr>
+					<tr>
+                        <td><a href="JmetalGS5-GroundZeroes.html">Metal Gear Solid V - Ground Zeroes</a></td>
+                    </tr>
+					<tr>
+                        <td><a href="JmortalK11.html">Mortal Kombat 11 - Standart Edition</a></td>
+                    </tr>
+					<tr>
+                        <td><a href="JmortalKXL.html">Mortal Kombat XL</a></td>
+                    </tr>
+					<tr>
+                        <td><a href="JmortalKX.html">Mortal Kombat X</a></td>
+                    </tr>
+					<tr>
+                        <td><a href="JNBA2K19.html">NBA 2K19</a></td>
+                    </tr>
+					<tr>
+                        <td><a href="JNBA2K20.html">NBA 2K20</a></td>
+                    </tr>
+					<tr>
+                        <td><a href="JNBA2K20-Deluxe.html">NBA 2K20 - Deluxe</a></td>
+                    </tr>
+					<tr>
+                        <td><a href="JNBA2K20-Legend.html">NBA 2K20 - Legend Edition</a></td>
+                    </tr>
+					<tr>
+                        <td><a href="JneedFS.html">Need For Speed</a></td>
+                    </tr>
+					<tr>
+                        <td><a href="JneedFS-Deluxe.html">Need For Speed - Deluxe Edition</a></td>
+                    </tr>
+					<tr>
+                        <td><a href="JneedFSRivals.html">Need For Speed Rivals</a></td>
+                    </tr>
+					<tr>
+                        <td><a href="JneedFSRivals-Complete.html">Need For Speed Rivals - Complete Edition</a></td>
+                    </tr>
+					<tr>
+                        <td><a href="JneedFSdeluxe-rivalsComplete.html">Need For Speed Deluxe Bundle (NFD Delux + NFS Rivals CO)</a></td>
+                    </tr>
+					<tr>
+                        <td><a href="JneedFS-UltimateBundle.html">Need For Speed Ultimate Bundle (NFS Rival + NFS + NSF Payback)</a></td>
+                    </tr>
+					<tr>
+                        <td><a href="JneedFS-PayBack.html">Need For Speed Payback</a></td>
+                    </tr>
+					<tr>
+                        <td><a href="JneedFS-Heat.html">Need For Speed Heat</a></td>
+                    </tr>
+					<tr>
+                        <td><a href="JneedFS-HeatDeluxe.html">Need For Speed Heat - Delux Edition</a></td>
+                    </tr>
+					<tr>
+                        <td><a href="JnierAutomata-GOTY.html">NieR Automata: Game of the Yorha Edition</a></td>
+                    </tr>
+					<tr>
+                        <td><a href="Jpersona5-Royal.html">Persona 5 Royal</a></td>
+                    </tr>
+					<tr>
+                        <td><a href="Jpersona5-RoyalDeluxe.html">Persona 5 Royal - Delux</a></td>
+                    </tr>
+					<tr>
+                        <td><a href="Jpersona5-RoyalUltimate.html">Persona 5 Royal - Ultimate</a></td>
+                    </tr>
+					<tr>
+                        <td><a href="JPES2020.html">PES 2020</a></td>
+                    </tr>
+					<tr>
+                        <td><a href="JPES2020.html">Pro Evolution Soccer 2020</a></td>
+                    </tr>
+					<tr>
+                        <td><a href="JPES2020-Legend.html">PES 2020 - Legend Edition</a></td>
+                    </tr>
+					<tr>
+                        <td><a href="JPES2020-Legend.html">Pro Evolution Soccer 2020 - Legend Edition</a></td>
+                    </tr>
+					<tr>
+                        <td><a href="JredDR2.html">Red Dead Redemption 2</a></td>
+                    </tr>
+					<tr>
+                        <td><a href="JredDR2-Ultimate.html">Red Dead Redemption 2 - Ultimate Edition </a></td>
+                    </tr>
+					<tr>
+                        <td><a href="JredDR2-Especial.html">Red Dead Redemption 2 - Edicion Especial</a></td>
+                    </tr>
+					<tr>
+                        <td><a href="JsaintsRowTT-Remastered.html">Saints Row The Third - Remastered</a></td>
+                    </tr>
+					<tr>
+                        <td><a href="JsaintsRowIVReElected.html">Saints Row IV Re-Elected</a></td>
+                    </tr>
+					<tr>
+                        <td><a href="JsaintsRowGOOH.html">Saints Row - Gat Out of Hell</a></td>
+                    </tr>
+					<tr>
+                        <td><a href="JsaintsRowReElectedGOOH.html">Saints Row Re-Elected and Gat Out of Hell</a></td>
+                    </tr>
+					<tr>
+                        <td><a href="JsekiroShadowsDT.html">Sekiro: Shadows Die Twice</a></td>
+                    </tr>
+					<tr>
+                        <td><a href="JshadowOTC.html">Shadow of the Colossus</a></td>
+                    </tr>
+					<tr>
+                        <td><a href="JtombRaiderSh-Definitive.html">Shadow of the Tomb Raider - Definitive Edition</a></td>
+                    </tr>
+					<tr>
+                        <td><a href="JtombRaiderRise.html">Rise of the Tomb Raider: 20 Year Celebration</a></td>
+                    </tr>
+					<tr>
+                        <td><a href="JtombRaider-Definitive.html">Tomb Raider - Definitive Edition</a></td>
+                    </tr>
+					<tr>
+                        <td><a href="JspiderMan-GOTYE.html">Marvel's Spider-man: Game of the year Edition </a></td>
+                    </tr>
+					<tr>
+                        <td><a href="JstreetF4.html">Ultra Street Fighter IV</a></td>
+                    </tr>
+					<tr>
+                        <td><a href="JstreetF5.html">Street Fighter V</a></td>
+                    </tr>
+					<tr>
+                        <td><a href="Jtekken7.html">Tekken 7</a></td>
+                    </tr>
+					<tr>
+                        <td><a href="Jtekken7-Ultimate.html">Tekken 7 - Ultimate Edition</a></td>
+                    </tr>
+					<tr>
+                        <td><a href="JtheLastOfUs-Remastered.html">The Last Of Us - Remastered</a></td>
+                    </tr>
+					<tr>
+                        <td><a href="JtheLastOfUs2.html">The Last Of Us 2</a></td>
+                    </tr>
+					<tr>
+                        <td><a href="JtheLastOfUs2-Deluxe.html">The Last Of Us 2 - Digital Delux Edition</a></td>
+                    </tr>
+					<tr>
+                        <td><a href="JtheWitcher3WH.html">The Witcher 3 - Wild Hunt</a></td>
+                    </tr>
+					<tr>
+                        <td><a href="JtheWitcher3WH-Complete.html">The Witcher 3 - Wild Hunt Complete Edition </a></td>
+                    </tr>
+					<tr>
+                        <td><a href="Juncharted-Collection.html">Uncharted the Nathan Drake Collection</a></td>
+                    </tr>
+					<tr>
+                        <td><a href="Juncharted4.html">Uncharted 4</a></td>
+                    </tr>
+								
+				
+                </tbody>
+            </table>
+        </div>
+    </div>
+				
+				</li>
+				
+			</ul>
+			
+			
+			
+			
+		</CENTER>
+<!-- VVIIHHUUAARR MENU-->
+
+    
+</header>
+
+<script src="js/search.js"></script>
+
+<img src="imgpag/principio.jpg" width="100%" >	
+
+<!-- <center><img src="" id="imagen" width="60%"></center>-->
+<!-- <center><video src="imgpag/video3.mp4" width="50%"autoplay muted loop></video><center>-->
+
+
+
+
+		
+	
+	<div class="wrap">
+		<h1>NOTICIAS DE VIDEO JUEGOS</h1>
+				
+			<table><tr><td>		
+NOTICIAS NOTICIAS NOTICIAS NOTICIAS NOTICIAS NOTICIAS NOTICIAS NOTICIAS NOTICIAS NOTICIAS NOTICIAS NOTICIAS NOTICIAS NOTICIAS 
+NOTICIAS NOTICIAS NOTICIAS NOTICIAS NOTICIAS NOTICIAS NOTICIAS NOTICIAS NOTICIAS NOTICIAS NOTICIAS NOTICIAS NOTICIAS NOTICIAS
+NOTICIAS NOTICIAS NOTICIAS NOTICIAS NOTICIAS NOTICIAS NOTICIAS NOTICIAS NOTICIAS NOTICIAS NOTICIAS NOTICIAS NOTICIAS NOTICIAS
+NOTICIAS NOTICIAS NOTICIAS NOTICIAS NOTICIAS NOTICIAS NOTICIAS NOTICIAS NOTICIAS NOTICIAS NOTICIAS NOTICIAS NOTICIAS NOTICIAS
+NOTICIAS NOTICIAS NOTICIAS NOTICIAS NOTICIAS NOTICIAS NOTICIAS NOTICIAS NOTICIAS NOTICIAS NOTICIAS NOTICIAS NOTICIAS NOTICIAS
+NOTICIAS NOTICIAS NOTICIAS NOTICIAS NOTICIAS NOTICIAS NOTICIAS NOTICIAS NOTICIAS NOTICIAS NOTICIAS NOTICIAS NOTICIAS NOTICIAS
+NOTICIAS NOTICIAS NOTICIAS NOTICIAS NOTICIAS NOTICIAS NOTICIAS NOTICIAS NOTICIAS NOTICIAS NOTICIAS NOTICIAS NOTICIAS NOTICIAS
+</td></tr></table>
+
+		
+		
+		
+	</div>
+
+
+<!-- 
+   <section class="container">
+       <figure>
+           <img src="imgpag/vha.jpg" alt="">
+       </figure>
+   </section>
+-->
+
+
+<img src="imgpag/final.jpg" width="100%" >	
+</body>
+</html>
